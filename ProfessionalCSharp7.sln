@@ -29,13 +29,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassesSample", "ClassesSam
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathSample", "MathSample\MathSample.csproj", "{C0234BAB-A395-4868-9B71-50A733BF04F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticConstructorSample", "StaticConstructorSample\StaticConstructorSample.csproj", "{48F65387-EF07-4137-9AC2-56F789ED6ED4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticConstructorSample", "StaticConstructorSample\StaticConstructorSample.csproj", "{48F65387-EF07-4137-9AC2-56F789ED6ED4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ObjectOrientation", "ObjectOrientation", "{E77C18A5-2EFE-4CE5-BF99-DE1C5CF89B79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualMethods", "VirtualMethods\VirtualMethods.csproj", "{9A4EC1CE-937C-4480-A097-126CFE7AAD8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtualMethods", "VirtualMethods\VirtualMethods.csproj", "{9A4EC1CE-937C-4480-A097-126CFE7AAD8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingInterfaces", "UsingInterfaces\UsingInterfaces.csproj", "{2B0681EA-D58E-4DC6-928E-5F31FC26BCDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingInterfaces", "UsingInterfaces\UsingInterfaces.csproj", "{2B0681EA-D58E-4DC6-928E-5F31FC26BCDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OperatorsAndCasts", "OperatorsAndCasts", "{17DD8410-4154-4208-82DF-6792F5FF94CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorsSample", "OperatorsSample\OperatorsSample.csproj", "{4C518B22-F4D9-4654-B345-92ED948C23C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorOverloadingSample", "OperatorOverloadingSample\OperatorOverloadingSample.csproj", "{CAD98AC4-982D-452F-A2D2-4740E36FC990}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomIndexerSample", "CustomIndexerSample\CustomIndexerSample.csproj", "{DA9116B1-5684-4BE1-BCAC-F970C49795A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,6 +103,18 @@ Global
 		{2B0681EA-D58E-4DC6-928E-5F31FC26BCDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B0681EA-D58E-4DC6-928E-5F31FC26BCDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B0681EA-D58E-4DC6-928E-5F31FC26BCDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C518B22-F4D9-4654-B345-92ED948C23C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C518B22-F4D9-4654-B345-92ED948C23C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C518B22-F4D9-4654-B345-92ED948C23C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C518B22-F4D9-4654-B345-92ED948C23C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD98AC4-982D-452F-A2D2-4740E36FC990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD98AC4-982D-452F-A2D2-4740E36FC990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD98AC4-982D-452F-A2D2-4740E36FC990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD98AC4-982D-452F-A2D2-4740E36FC990}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA9116B1-5684-4BE1-BCAC-F970C49795A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA9116B1-5684-4BE1-BCAC-F970C49795A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA9116B1-5684-4BE1-BCAC-F970C49795A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA9116B1-5684-4BE1-BCAC-F970C49795A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -113,6 +133,9 @@ Global
 		{48F65387-EF07-4137-9AC2-56F789ED6ED4} = {CD95184D-9B7B-4988-948E-661DE6980AC1}
 		{9A4EC1CE-937C-4480-A097-126CFE7AAD8C} = {E77C18A5-2EFE-4CE5-BF99-DE1C5CF89B79}
 		{2B0681EA-D58E-4DC6-928E-5F31FC26BCDE} = {E77C18A5-2EFE-4CE5-BF99-DE1C5CF89B79}
+		{4C518B22-F4D9-4654-B345-92ED948C23C2} = {17DD8410-4154-4208-82DF-6792F5FF94CD}
+		{CAD98AC4-982D-452F-A2D2-4740E36FC990} = {17DD8410-4154-4208-82DF-6792F5FF94CD}
+		{DA9116B1-5684-4BE1-BCAC-F970C49795A4} = {17DD8410-4154-4208-82DF-6792F5FF94CD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1EC781F8-63AC-4C86-9116-921DCA080D68}
