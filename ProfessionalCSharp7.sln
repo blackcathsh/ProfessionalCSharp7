@@ -95,13 +95,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingStatic", "UsingStatic\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocalFunctions", "LocalFunctions\LocalFunctions.csproj", "{B288D0BB-6E5A-4AFB-856B-AFA75748A2C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuplesSample", "TuplesSample\TuplesSample.csproj", "{8300A294-90E1-48DF-9BE4-22E7957384D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TuplesSample", "TuplesSample\TuplesSample.csproj", "{8300A294-90E1-48DF-9BE4-22E7957384D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuples", "Tuples\Tuples.csproj", "{DE854ADC-47F5-4B7C-8737-BD12884E545A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuples", "Tuples\Tuples.csproj", "{DE854ADC-47F5-4B7C-8737-BD12884E545A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ErrorsAndExceptions", "ErrorsAndExceptions", "{247E9120-3C75-436D-9681-A4444D689041}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleException", "SimpleException\SimpleException.csproj", "{5C5FEB37-D4F0-4F45-B91E-0DDF2869830F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleException", "SimpleException\SimpleException.csproj", "{5C5FEB37-D4F0-4F45-B91E-0DDF2869830F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Async", "Async", "{E3780C17-1D0A-4829-AD9D-3B5DD2508819}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foundations", "Foundations\Foundations.csproj", "{39F36565-810B-46BD-A02B-487F84C7A365}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -261,6 +265,10 @@ Global
 		{5C5FEB37-D4F0-4F45-B91E-0DDF2869830F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C5FEB37-D4F0-4F45-B91E-0DDF2869830F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C5FEB37-D4F0-4F45-B91E-0DDF2869830F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39F36565-810B-46BD-A02B-487F84C7A365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F36565-810B-46BD-A02B-487F84C7A365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F36565-810B-46BD-A02B-487F84C7A365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F36565-810B-46BD-A02B-487F84C7A365}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -304,6 +312,7 @@ Global
 		{8300A294-90E1-48DF-9BE4-22E7957384D9} = {E72A2D7A-1683-444C-8584-43929EC61E77}
 		{DE854ADC-47F5-4B7C-8737-BD12884E545A} = {E72A2D7A-1683-444C-8584-43929EC61E77}
 		{5C5FEB37-D4F0-4F45-B91E-0DDF2869830F} = {247E9120-3C75-436D-9681-A4444D689041}
+		{39F36565-810B-46BD-A02B-487F84C7A365} = {E3780C17-1D0A-4829-AD9D-3B5DD2508819}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1EC781F8-63AC-4C86-9116-921DCA080D68}
